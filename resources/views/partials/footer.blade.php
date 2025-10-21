@@ -23,7 +23,7 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <strong>Endereço:</strong>
-                        <span>{!! nl2br(e($settings['address']->value ?? 'Rua Eurico Dutra, Nº 72\nCentro, Sorriso - MT')) !!}</span>
+                        <span>{!! nl2br(e($settings['address']->value ?? "Rua Eurico Dutra, Nº 72\nCentro, Sorriso - MT")) !!}</span>
                     </div>
                     <div class="contact-item">
                         <strong>E-mail:</strong>
@@ -33,7 +33,7 @@
                         <strong>Horário:</strong>
                         <span>{{ $settings['hours']->value ?? 'das 07:00 às 13:00' }}</span>
                     </div>
-                    @if(isset($settings['phone']))
+                    @if(isset($settings['phone']) && $settings['phone']->value)
                         <div class="contact-item">
                             <strong>Telefone:</strong>
                             <span>{{ $settings['phone']->value }}</span>

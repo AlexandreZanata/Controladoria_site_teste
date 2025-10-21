@@ -15,8 +15,8 @@ class AwardSeeder extends Seeder
             'title' => 'Selo Diamante',
             'image_path' => 'img/SeloDiamante_PNTP-SemFundo.png',
             'modal_title' => 'Selo Diamante',
-            'modal_subtitle' => '98,01%<br><p class="modal-p">de eficiência</p>',
+            'modal_subtitle' => '98,01% de eficiência',
             'modal_description' => 'Sorriso recebeu o Selo Diamante de transparência pública, a premiação representa o mais alto nível de transparência pública, demonstrando o compromisso com a prestação de contas e o investimento dos recursos públicos.'
-        ]); //
+        ]);
     }
 }

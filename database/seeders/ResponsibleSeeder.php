@@ -14,11 +14,7 @@ class ResponsibleSeeder extends Seeder
         Responsible::create([
             'name' => 'Laércio Costa Garcia',
             'role' => 'Controlador',
-            'about' => '<p class="about-text">
-                            Formado em <span class="accent">X coisa</span> na Universidade <span
-                                class="accent">Y</span> no ano de <span class="accent">DD/MM/YYYY</span>.
-                            Servidor público efetivo desde o ano de <span class="accent">YYYY</span>.
-                        </p>'
-        ]); //
+            'about' => 'Formado em Direito na Universidade Federal de Mato Grosso no ano de 2005. Servidor público efetivo desde o ano de 2010, com vasta experiência em controle interno e gestão pública.'
+        ]);
     }
 }

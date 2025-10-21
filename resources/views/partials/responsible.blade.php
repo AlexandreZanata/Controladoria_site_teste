@@ -7,19 +7,17 @@
         @if($responsible)
             <div class="responsible-card">
                 <div class="responsible-info">
-                    <div class="info-item">
+                    <div class="info-row">
                         <span class="info-label">Nome:</span>
                         <span class="info-value">{{ $responsible->name }}</span>
                     </div>
-                    <div class="info-item">
+                    <div class="info-row">
                         <span class="info-label">Função:</span>
                         <span class="info-value">{{ $responsible->role }}</span>
                     </div>
-                    <div class="info-item full-width">
+                    <div class="info-row">
                         <span class="info-label">Sobre:</span>
-                        <div class="info-content">
-                            <p class="about-text">{{ $responsible->about }}</p>
-                        </div>
+                        <span class="info-value about-text">{{ $responsible->about }}</span>
                     </div>
                 </div>
             </div>
